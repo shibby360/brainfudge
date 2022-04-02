@@ -6,5 +6,5 @@ if %1==-f (
   python bfr.py !opts!
 )
 if %1==-e (
-  python bfr.py %~2
+  python bfr.py %2
 )
