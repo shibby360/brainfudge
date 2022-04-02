@@ -2,7 +2,8 @@ while getopts f:e: opt
 do
   case $opt in
   f)
-  more "$OPTARG" | python bfr.py
+  opts=`more "$OPTARG"`
+  python bfr.py "$opts"
   ;;
   e)
   python bfr.py "$OPTARG"
