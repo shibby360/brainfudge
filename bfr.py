@@ -230,3 +230,5 @@ def bf(code):
       else:
         raise UnknownSymbolError('Symbol Unknown')
       currCounterVal = counters[currCounter]
+import sys
+bf(sys.argv[1])
