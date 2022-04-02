@@ -231,4 +231,4 @@ def bf(code):
         raise UnknownSymbolError('Symbol Unknown')
       currCounterVal = counters[currCounter]
 import sys
-bf(sys.argv[1])
+bf(str(sys.argv[1]))
