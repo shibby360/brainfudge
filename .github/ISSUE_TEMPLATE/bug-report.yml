@@ -1,0 +1,30 @@
+name: Bug
+description: Report a bug via form
+title: Some bug
+labels: ["bug"]
+asignees:
+  - shibby360
+body:
+  - type: textarea
+    attributes:
+      label: "What's the bug?"
+      description: "Tell us what happened, and what you expected to happen."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: "What were the steps taken to encounter this bug?"
+      placeholder: Steps here
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Contact
+      description: "How can we contact you if needed?"
+      placeholder: "ex. contact@brainfudge.com"
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "Thanks for filling out this bug report!"
