@@ -1,20 +1,20 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+about: Suggest an idea
 title: ''
 labels: ''
-assignees: ''
+assignees: 'shibby360'
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+### Does your feature relate to a problem?
+A clear and concise description of what the problem is.
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+### What is the solution/feature you want?
+A description of what you would like.
 
-**Describe alternatives you've considered**
+### What are alternatives you have tried?
 A clear and concise description of any alternative solutions or features you've considered.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+### Additional info
+If there is anything else you would like to let us know, please write here.
