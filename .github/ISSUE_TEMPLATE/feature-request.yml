@@ -1,0 +1,28 @@
+name: Request a feature
+description: Suggest a feature via form
+title: Feature
+labels: ['enhancement']
+assignees:
+  - shibby360
+body:
+  - type: textarea
+    attributes:
+      label: Problem - if applicable
+      description: If your feature is based on a problem, please write it here.
+  - type: textarea
+    attributes:
+      label: Feature
+      description: What is the feature you want to be added?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Alternatives
+      description: Have you tried any alternatives? If so, please list below.
+  - type: textarea
+    attributes:
+      label: Additional info
+      description: Please give any additional info you feel we need to know.
+  - type: markdown
+    attributes:
+      value: Thank you for filling out this form!
