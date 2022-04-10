@@ -18,13 +18,6 @@ body:
       placeholder: Steps here
     validations:
       required: true
-  - type: input
-    attributes:
-      label: Contact
-      description: "How can we contact you if needed?"
-      placeholder: "ex. contact@brainfudge.com"
-    validations:
-      required: true
   - type: markdown
     attributes:
       value: "Thanks for filling out this bug report!"
